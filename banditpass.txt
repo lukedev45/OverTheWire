@@ -1,0 +1,21 @@
+Level 1: ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+Level 2: 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+Level 3: MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
+Level 4: 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
+Level 5: 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
+Level 6: HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
+Level 7: morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj (cd / -> find . -user bandit7 -group bandit6 -size 33c)
+Level 8: dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc (cat data.txt | grep "millionth")
+Level 9: 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM (sort data.txt | uniq -u)
+Level 10: FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey (strings data.txt | grep "==")
+Level 11: dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr (base64 -d data.txt)
+Level 12: 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4 (strings data.txt | tr 'a-z' 'n-za-m' | tr 'A-Z' 'N-ZA-M', maybe possible to put all into one tr command?)
+Level 13: FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn (mktemp adn use xxd -r to revert hexdump then use file to find out the compressed version and conitune to decompress until you get to data9.bin I tkey.prhink. It will be human readable anyway)
+Level 14: MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS (Use the ssh -i sshkey.private bandit14@bandit.labs.overthewire.org -p 2220 command and go to /etc/bandit_pass/bandit14)
+Level 15: 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo (nc localhost 30000 adn then paste in level 14 password)
+Level 16: 
+
+
+
+
+
