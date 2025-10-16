@@ -14,7 +14,9 @@ Level 13: FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn (mktemp adn use xxd -r to revert hexd
 Level 14: MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS (Use the ssh -i sshkey.private bandit14@bandit.labs.overthewire.org -p 2220 command and go to /etc/bandit_pass/bandit14)
 Level 15: 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo (nc localhost 30000 and then paste in level 14 password)
 Level 16: kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx (openssl s_client localhost:30001 and then paste level 15 password)
-Level 17: 
+Level 17: No password, must use the rsa key from level 16. Make sure permissions are set to chmod 600
+Level 18: x2gLTTjFwMOhQ8oWNbMN362QKxfRqGlO (Note that it says ByeBye! and automatically kicks you out, this is meant to happen)
+Level 19: 
 
 
 
