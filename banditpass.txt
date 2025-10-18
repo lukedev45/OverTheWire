@@ -18,10 +18,8 @@ Level 17: No password, must use the rsa key from level 16. Make sure permissions
 Level 18: x2gLTTjFwMOhQ8oWNbMN362QKxfRqGlO (Note that it says ByeBye! and automatically kicks you out, this is meant to happen)
 Level 19: cGWpMaKXVwDUNgPAVJbWYuGHVn9zl3j8 (ssh bandit18@bandit.labs.overthewire.org -p 2220 -v -t, -t deactivates the shell)
 Level 20: 0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO (go to /etc/bandit_pass and then run /home/bandit19/bandit20-do cat bandit20)
-<<<<<<< HEAD
-
-=======
->>>>>>> de46fc1c513810efc76e335cd01371566a6fe176
+Level 21: EeoULMCra2q0dSkYj561DX7s1CpBuOBt (echo "" | nc lp 1234 (any open port) then ./suconnect 1234)
+Level 22: 
 
 
 
