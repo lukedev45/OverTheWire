@@ -22,5 +22,5 @@ Level 21: EeoULMCra2q0dSkYj561DX7s1CpBuOBt (echo "" | nc lp 1234 (any open port)
 Level 22: tRae0UfB9v0UzbCdn9cY0gQnds9GF58Q (Look at the /etc/cron.d/ configs and investigate cronjob_bandit22, this will point to a directory which contains a bash file that outputs the password into a directory in temp) 
 Level 23: 0Zf11ioIjMVN551jX3CmStKLYqjk54Ga (/etc/cron.d, cat cronjob_bandit23 and run the first command but with bandit23)
 Level 24: gb8KRRCsshuZXI0tUuR6ypOFjiZbf3G8 (mktemp and make sure to use chmod 777 on everything. Create the bandit24_pass.sh and password file, make sure to change permissions. Copy the bandit24_pass into the /var/spool/bandit24/foo dir and then wait for it to execute.)
-Level 25: 
-
+Level 25: iCi86ttT4KSNe1armKiwbQNmB3YJP3q4 (use the brute25.sh in a tmp file and then grep -v "Wrong!" result.txt)
+Level 26: 
