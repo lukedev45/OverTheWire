@@ -23,4 +23,6 @@ Level 22: tRae0UfB9v0UzbCdn9cY0gQnds9GF58Q (Look at the /etc/cron.d/ configs and
 Level 23: 0Zf11ioIjMVN551jX3CmStKLYqjk54Ga (/etc/cron.d, cat cronjob_bandit23 and run the first command but with bandit23)
 Level 24: gb8KRRCsshuZXI0tUuR6ypOFjiZbf3G8 (mktemp and make sure to use chmod 777 on everything. Create the bandit24_pass.sh and password file, make sure to change permissions. Copy the bandit24_pass into the /var/spool/bandit24/foo dir and then wait for it to execute.)
 Level 25: iCi86ttT4KSNe1armKiwbQNmB3YJP3q4 (use the brute25.sh in a tmp file and then grep -v "Wrong!" result.txt)
-Level 26: 
+Level 26: s0773xxkk0MXfdqOfPRVr9L3jJBUOgCZ (shirnk the terminal window which will prompt the more command and then press v to run vim. Type in :set shell=/bin/bash and then use :shell)
+Level 27: upsNCc7vzaRDx6oZC6GiR6ERwe1MowGB (run ./bandit27-do cat /etc/bandit_pass/bandit27)
+Level 28: 
