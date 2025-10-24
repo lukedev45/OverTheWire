@@ -18,7 +18,7 @@ Level 17: No password, must use the rsa key from level 16. Make sure permissions
 Level 18: x2gLTTjFwMOhQ8oWNbMN362QKxfRqGlO (Note that it says ByeBye! and automatically kicks you out, this is meant to happen)
 Level 19: cGWpMaKXVwDUNgPAVJbWYuGHVn9zl3j8 (ssh bandit18@bandit.labs.overthewire.org -p 2220 -v -t, -t deactivates the shell)
 Level 20: 0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO (go to /etc/bandit_pass and then run /home/bandit19/bandit20-do cat bandit20)
-Level 21: EeoULMCra2q0dSkYj561DX7s1CpBuOBt (echo "" | nc lp 1234 (any open port) then ./suconnect 1234)
+Level 21: EeoULMCra2q0dSkYj561DX7s1CpBuOBt (echo "0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO" | nc -lp 1234 (any open port) then ./suconnect 1234)
 Level 22: tRae0UfB9v0UzbCdn9cY0gQnds9GF58Q (Look at the /etc/cron.d/ configs and investigate cronjob_bandit22, this will point to a directory which contains a bash file that outputs the password into a directory in temp) 
 Level 23: 0Zf11ioIjMVN551jX3CmStKLYqjk54Ga (/etc/cron.d, cat cronjob_bandit23 and run the first command but with bandit23)
 Level 24: gb8KRRCsshuZXI0tUuR6ypOFjiZbf3G8 (mktemp and make sure to use chmod 777 on everything. Create the bandit24_pass.sh and password file, make sure to change permissions. Copy the bandit24_pass into the /var/spool/bandit24/foo dir and then wait for it to execute.)
