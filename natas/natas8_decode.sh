@@ -8,4 +8,4 @@ echo "Decoded secret: $secret"
 base64encoded=$(echo "$secret" | base64)
 reversebase64=$(echo "$base64encoded" | rev)
 hexoutput=$(echo -n "$reversebase64" | xxd -p)
-echo "Hex output: $hexoutput":w
+echo "Hex output: $hexoutput"
